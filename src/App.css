@@ -7,16 +7,16 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-div {
-    margin: 10px 10px
-}
-
 .card {
     box-shadow: 2px 3px 2px 1px #ccc;
     padding: 10px;
     border-radius: 5px;
     width: 300px;
     border: solid 1px #eee;
+}
+
+.green {
+    background-color: #7EBD4F;
 }
 
 .btn {
@@ -40,4 +40,16 @@ div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+input {
+    padding:8px;
+    border: solid 2px #bbb;
+    border-radius: 5px;
+    margin: 0 5px;
+    flex: 1;
+}
+
+label {
+    margin: 0 5px;
 }

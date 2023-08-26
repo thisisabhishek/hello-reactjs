@@ -25,5 +25,11 @@ Ep-12 - Handling Form - Easiest way - DynamicForm.js
 
 Ep-13 - Capture Form values and Show - FormWithState.js
 
+Ep-14 - Shopping List manager App - ShoppingListApp.js
+
+Ep-15 - useId Hook Example - UseIDExample.js
+
+Ep-16 - useEffect Hook Example - UseEffectExample.js
+
 
 
