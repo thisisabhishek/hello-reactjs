@@ -1,5 +1,29 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
+}
+
+nav {
+    border-bottom: solid 1px #eee;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 2px 2px 2px #ccc;
+    margin-bottom: 10px;
+}
+
+.products {
+    background-color: #eee;
+    margin-top: 20px;
+    height: 250px;
+    text-align: center;
+}
+ 
+.home {
+    margin-top: 20px;
+    height: 250px;
+    text-align: center;
 }
 
 h1 {
@@ -11,7 +35,7 @@ h1 {
     box-shadow: 2px 3px 2px 1px #ccc;
     padding: 10px;
     border-radius: 5px;
-    width: 300px;
+    width: 100%;
     border: solid 1px #eee;
 }
 
@@ -40,6 +64,14 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
+    background-color: #7EBD4F;
+    color: #eee;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
 
 input {
