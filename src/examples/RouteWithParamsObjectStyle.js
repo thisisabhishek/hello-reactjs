@@ -42,8 +42,9 @@ const router = createBrowserRouter(
 const Root = () => {
     return (
         <div style={{width:'400px'}}>
-            <nav>
-                Studytonight
+            <nav className='flex-apart'>
+                <span>LOGO</span>
+                <span><Link to="/profile">{username}</Link></span>
             </nav>
             <div className='flex-apart'>
                 <Link to="/">Home</Link>&nbsp;
